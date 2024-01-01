@@ -83,11 +83,6 @@ function handlePlayerChange() {
     statusDisplay.innerHTML = currentPlayerTurn();
 }
 
-function handleCell(clickedCell, clickedCellIndex) {
-    
-    gameState[clickedCellIndex] = currentPlayer;
-    clickedCell.innerHTML = currentPlayer;
-}
 
 function handleRestartGame() {
     gameActive = true;
